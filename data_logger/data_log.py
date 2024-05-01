@@ -1,6 +1,6 @@
 from MQTT2Excel import MQTT2Excel
 
-m2e = MQTT2Excel("18.142.160.101","data_log.xls")
+m2e = MQTT2Excel("127.0.0.1","data_log.xls")
 
 #Set total row number you want to store in Excle
 m2e.setRecordsNumber(1000)
